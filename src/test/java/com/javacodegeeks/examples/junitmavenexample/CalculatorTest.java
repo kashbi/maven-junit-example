@@ -35,6 +35,13 @@ public class CalculatorTest {
 		assertEquals(8, result);
 	}
 
+	
+	@Test
+	public void failTest() {
+		int result = calculator.sum(5, 4);
+
+		assertEquals(8, result);
+	}
 	@Test
 	public void testDivison() {
 		try {
