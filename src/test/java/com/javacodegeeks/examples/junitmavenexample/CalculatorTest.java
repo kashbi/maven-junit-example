@@ -40,7 +40,7 @@ public class CalculatorTest {
 	public void failTest() {
 		int result = calculator.sum(5, 4);
 
-		assertEquals(8, result);
+		assertEquals(9, result);
 	}
 	@Test
 	public void testDivison() {
